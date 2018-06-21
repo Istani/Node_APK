@@ -3,28 +3,9 @@
 <head>
 
   <title>Test</title>
-  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
   <script>
-  document.addEventListener("deviceready", onDeviceReady, false);
-  function onDeviceReady() {
-    //navigator.splashscreen.hide();
-    if (navigator.network.connection.type == Connection.NONE) {
-      networkError()
-    } else {
-      loadApp()
-    }
-  }
-
-  function loadApp() {
-    navigator.app.loadUrl("http://192.168.178.1")
-  }
-
-  function networkError() {
-    navigator.notification.alert('Test requires an internet connection')
-    var $net = document.createElement('div')
-    $net.innerHTML = 'Test requires an internet connection'
-    document.body.appendChild($net)
-  }
+  navigator.app.loadUrl("http://192.168.178.1");
   </script>
 
   <style>
@@ -40,5 +21,6 @@
   </style>
 </head>
 <body>
+  Behindert!
 </body>
 </html>
