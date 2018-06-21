@@ -1,0 +1,19 @@
+{
+  "name": "node_apk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Istani/Node_APK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Istani/Node_APK/issues"
+  },
+  "homepage": "https://github.com/Istani/Node_APK#readme"
+}
